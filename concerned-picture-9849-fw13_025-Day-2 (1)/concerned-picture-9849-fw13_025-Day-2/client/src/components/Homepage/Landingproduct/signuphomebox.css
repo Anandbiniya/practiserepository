@@ -1,0 +1,80 @@
+.signuphomebox {
+  width: 45%;
+  height: 500px;
+  border: 2px solid red;
+  padding: 100px 60px;
+  text-align: inherit;
+  color: #fce5d8;
+  font-family: "GT Haptik Medium", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
+  max-width: 620px;
+  background: #2c1338;
+  padding: 55px 70px 60px;
+  z-index: 1;
+  margin-left: 50px;
+}
+.signuphomecontainer {
+  padding: 40px 20px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  z-index: 100;
+}
+.signuphome2 {
+  /* margin: 4rem 0 0 -8rem; */
+  /* z-index: 50 !important; */
+  position: absolute;
+
+  width: 45%;
+  height: 350px;
+  border: 2px solid red;
+  padding: 60px 60px;
+  text-align: inherit;
+  color: #fce5d8;
+  font-family: "GT Haptik Medium", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  left: 48%;
+  top: 30%;
+  font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
+  max-width: 620px;
+  background: #fff;
+  padding: 100px 70px 60px;
+}
+.signuptext {
+  font-family: "Inter", sans-serif;
+  color: #fce5d8;
+  line-height: 1.5;
+  font-size: clamp(1rem * 0.95, 1vw, 1rem);
+  margin-bottom: 10px;
+  padding: 20px 5px;
+  font-weight: 400;
+  margin: 20px 20px;
+  color: black;
+}
+.signupbuttons {
+  display: flex;
+  gap: 20px;
+}
+.buttonsIcons {
+  background-color: white;
+  height: 100px;
+  margin: 20px 0px;
+  padding: 20px;
+}
+.buttonsIcons:hover {
+  background-color: #fce5d8;
+  border: 2px solid #fce5d8;
+}
+.buttonsIcons > img {
+  width: 10%;
+}
+.buttonsIconsleft {
+  background-color: pink;
+  height: 40px;
+  /* margin: 20px 0px; */
+  padding: 10px;
+  color: black;
+}

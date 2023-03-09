@@ -1,0 +1,93 @@
+.timetrackingheading {
+  color: #2c1338;
+  font-family: "GT Haptik Medium", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
+  margin-bottom: 20px;
+}
+.timetrackingheading > span {
+  color: rgb(216, 12, 216);
+}
+.timetrackcontainer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  gap: 10%;
+  min-height: 200px;
+}
+.timetrackcontainer > div:nth-child(1) {
+  width: 40%;
+
+  margin: auto;
+  margin-bottom: 60%;
+  box-sizing: border-box;
+  padding: 30px 10px;
+  width: 50%;
+}
+.timetrackcontainer > div:nth-child(2) {
+  width: 50%;
+  /* margin-left: 5%;
+  left: 60%; */
+  position: relative;
+}
+.timetrackcontainer > div:nth-child(2) > img {
+  position: absolute;
+}
+
+.timetrackingtext {
+  color: #564260;
+  line-height: 1.5;
+  font-size: clamp(1.125rem * 0.9, 1.25vw, 1.125rem);
+}
+
+.buttonsIcons {
+  font-family: "GT Haptik Medium", sans-serif;
+  font-size: 1rem;
+  padding: 14px 35px;
+  padding: 20px;
+  align-items: center;
+  background-color: red;
+  border-radius: 26px;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  /* color: rgb(240, 192, 255); */
+  left: 30%;
+  top: 15%;
+  box-shadow: 0 16px 20px 0 rgb(0 0 0 / 25%);
+}
+
+.timetrackcontainer > div {
+  width: 100%;
+}
+.timetrackcontainer > div > img {
+  width: 100%;
+  position: relative;
+}
+
+.iconswithtext {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px soild red;
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+}
+.iconswithtext > div > div {
+  width: 50%;
+}
+.iconswithtext > div > div > img {
+  width: 100%;
+}
+.headIcons {
+  color: #2c1338;
+  font-family: "GT Haptik Medium", sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.25rem, 1.5vw, 1.25rem * 1.1);
+  /* font-size: 10px; */
+  line-height: 1.5;
+  margin: 15px 0 10px;
+  line-height: 1.2;
+  font-weight: bold;
+}
